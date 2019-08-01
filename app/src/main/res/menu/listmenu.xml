@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dateasc"
+        android:orderInCategory="102"
+        android:title="Date(ascending)"/>
+    <item
+        android:id="@+id/datedesc"
+        android:orderInCategory="103"
+        android:title="Date(descending)"/>
+    <item
+        android:id="@+id/amtasc"
+        android:orderInCategory="103"
+        android:title="Amount(ascending)"/>
+    <item
+        android:id="@+id/amtdesc"
+        android:orderInCategory="104"
+        android:title="Amount(descending)"/>
+
+</menu>
