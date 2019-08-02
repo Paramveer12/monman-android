@@ -32,6 +32,7 @@ public class newtrandiag extends AppCompatActivity {
         setContentView(R.layout.newtrandiag);
         incbtn = findViewById(R.id.incbtn);
         expbtn = findViewById(R.id.expbtn);
+        setTitle("New Transaction");
         itembox = findViewById(R.id.itembox);
         amountbox = findViewById(R.id.amountbox);
         radioGroup = findViewById(R.id.radiogroup);

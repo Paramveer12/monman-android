@@ -46,6 +46,7 @@ public class Expeses extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         listview = findViewById(R.id.listview);
+        setTitle("Money Manager");
         image = findViewById(R.id.imageView);
         image.setVisibility(View.GONE);
         currebtbalance = findViewById(R.id.currentbalance);

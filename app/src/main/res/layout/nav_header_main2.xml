@@ -26,9 +26,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/aldrich"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Expenses"
+        android:text="Money Manager"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
 </LinearLayout>

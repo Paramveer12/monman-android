@@ -36,6 +36,7 @@ public class editactiviry extends AppCompatActivity {
         itembox = findViewById(R.id.itembox);
         amountbox = findViewById(R.id.amountbox);
         radioGroup = findViewById(R.id.radiogroup);
+        setTitle("Edit Transaction");
         radioGroup.check(R.id.expbtn);
         paybox = findViewById(R.id.paybox);
         pbox = findViewById(R.id.pbox);

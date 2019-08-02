@@ -41,6 +41,7 @@ public class listview extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listview);
         listView = findViewById(R.id.listview);
+        setTitle("All Transactions");
         Databasehelper obj = new Databasehelper(this);
         obj.mydbopen();
         srno = obj.fetchsrdatedesc();
